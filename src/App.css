@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&display=swap");
+
+/* font-family: 'Clash Display', sans-serif; */
+/* font-family: 'General Sans', sans-serif; */
+/* font-family: 'Bai Jamjuree', sans-serif; */
 
 ::-webkit-scrollbar {
   width: 10px; /* Ancho de la barra de desplazamiento */
@@ -15,7 +20,10 @@
 }
 
 body {
-  font-family: 'Clash Display', sans-serif;
   overflow-x: hidden;
 }
 
+.navbar_name {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 900;
+}
