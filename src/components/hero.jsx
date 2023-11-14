@@ -8,7 +8,7 @@ function Hero() {
     <section className="w-full h-screen min-h-screen flex flex-col px-20">
       <Navbar />
       <Title />
-      {/* <FooterHero/> */}
+      <FooterHero/>
     </section>
   );
 }
