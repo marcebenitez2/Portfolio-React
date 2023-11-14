@@ -27,3 +27,9 @@ body {
   font-family: "Clash Display", sans-serif;
   font-weight: 900;
 }
+
+.title_hero{
+  font-family: 'Clash Display', sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+}
