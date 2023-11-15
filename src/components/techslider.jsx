@@ -37,12 +37,14 @@ function Techslider() {
 
   return (
     <div className="w-full pt-16 flex flex-col h-96">
-      <h2 className="about_title hover:text-orange-400">EXPERIENCIA</h2>
       <div className="tecnologias-container">
         <animated.div className="tecnologias" style={props}>
-          {techNames.slice().reverse().map((tech, index) => (
-            <span key={index}>{tech}</span>
-          ))}
+          {techNames
+            .slice()
+            .reverse()
+            .map((tech, index) => (
+              <span key={index}>{tech}</span>
+            ))}
         </animated.div>
       </div>
       <div className="tecnologias-container2">

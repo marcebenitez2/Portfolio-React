@@ -9,8 +9,8 @@ function Title() {
       </div>
       <div className="title_hero  hover:text-orange-400">DEVELOPER</div>
       <div className="flex gap-6 ">
-        <div className="subtitle_hero hover:text-orange-400">MARCELO</div>
-        <div className="subtitle_hero hover:text-orange-400">BENITEZ</div>
+        <div className="subtitle_hero text-orange-400">MARCELO</div>
+        <div className="subtitle_hero text-orange-400">BENITEZ</div>
       </div>
     </div>
   );
