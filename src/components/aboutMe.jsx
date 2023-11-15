@@ -1,5 +1,5 @@
 import React from "react";
-import fotoYO from "../assets/fotoYO.jpg";
+import fotoYO from "../assets/fotoYo.jpg";
 
 function AboutMe() {
   return (
