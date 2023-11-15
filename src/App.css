@@ -10,7 +10,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ff0080; /* Color del pulgar de la barra de desplazamiento */
+  background-color: #ffffff; /* Color del pulgar de la barra de desplazamiento */
   border-radius: 5px; /* Radio de los bordes del pulgar */
 }
 
@@ -37,11 +37,18 @@ body {
 }
 
 .logo {
-  animation: spin 4s linear infinite;
+  animation: spin 3.5s linear infinite;
 }
 
 @keyframes spin {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.about_title {
+  font-family: "Clash Display", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
 }

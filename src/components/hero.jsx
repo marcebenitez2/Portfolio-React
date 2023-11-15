@@ -5,7 +5,7 @@ import FooterHero from "./footerHero";
 
 function Hero() {
   return (
-    <section className="w-full h-screen min-h-screen flex flex-col px-20">
+    <section className="w-full h-screen min-h-screen flex flex-col">
       <Navbar />
       <Title />
       <FooterHero/>
