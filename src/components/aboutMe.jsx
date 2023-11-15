@@ -6,7 +6,7 @@ function AboutMe() {
     <div className="w-full pt-16 flex flex-col gap-4">
       <h2 className="about_title hover:text-orange-400">SOBRE MI</h2>
       <div className="flex lgn:flex-col-reverse lgn:gap-10">
-        <div className="text-2xl font-thin leading-normal w-full basis-full pr-24">
+        <div className="text-2xl font-thin leading-normal w-full basis-full pr-24 mdn:pr-0 mdn:text-lg">
           <h2 className="hover:text-orange-400">
             ¡Hola, soy un apasionado desarrollador de software FullStack! Mi
             especialidad es crear aplicaciones web robustas y escalables. Mi

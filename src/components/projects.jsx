@@ -18,7 +18,7 @@ function Projects() {
             <img src={preview1} className="zoom" alt="Project 1" />
           </a>
           <div>
-            <h3 className="title_project text-yellow-400 titulo_zoom">
+            <h3 className="title_project text-yellow-400 ">
               <a
                 href="https://calcos-ecommerce-main.vercel.app/store"
                 target="_blank"
@@ -26,7 +26,7 @@ function Projects() {
                 VESTICKS
               </a>
             </h3>
-            <p>
+            <p className="mdn:text-base">
               Tienda concepto de stickers, con un diseño minimalista y una
               paleta de colores que se adapta a cualquier tipo de sticker. El
               proyecto se realizó con NextJS, TailwindCSS y Firebase.
@@ -41,7 +41,7 @@ function Projects() {
             <h3 className="title_project text-red-600">
               <a href="">SCOUTSOFT</a>
             </h3>
-            <p>
+            <p className="mdn:text-base">
               Sistema de administracion para grupos scouts. El sistema cuenta
               con usuarios, roles, gestion de beneficiarios, gestion de
               inventario como tambien de calendario, etc. El proyecto se realizó

@@ -10,13 +10,13 @@ function Contact() {
   return (
     <div className="w-full flex flex-col mt-20 gap-4" id="contacto">
       <h1 className="about_title">CONTACTAME</h1>
-      <h3 className="text-xl">
+      <h3 className="text-xl mdn:text-base">
         SI TIENES ALGUNA CONSULTA NO DUDES EN CONTACTAR:
       </h3>
-      <h3 className="text-2xl font-semibold text-orange-400">
+      <h3 className="text-2xl font-semibold text-orange-400 mdn:text-lg">
         <a href={`mailto:${email}`}> {email}</a>
       </h3>
-      <h3 className="text-2xl font-semibold text-orange-400">
+      <h3 className="text-2xl font-semibold text-orange-400 mdn:text-lg">
         +51 341 569 0470
       </h3>
       <div className="w-full flex pl-24 justify-center gap-8 items-center lgn:flex-row lgn:pl-0">

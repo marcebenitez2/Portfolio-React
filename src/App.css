@@ -196,3 +196,22 @@ label textarea {
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .title_hero {
+    font-size: 50px;
+  }
+  .subtitle_hero {
+    font-size: 20px;
+  }
+  .foto_mia{
+    width: 13rem;
+  }
+
+  .about_title{
+    font-size: 30px;
+  }
+  .title_project{
+    font-size: 20px;
+  }
+}
