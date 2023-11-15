@@ -24,7 +24,7 @@ function Navbar() {
         <h1 className="text-3xl navbar_name w-48 animate-fade-down animate-delay-300">
           OPEN WORK
         </h1>
-        <div className="w-3 h-3 bg-green-600 rounded-full animate-pulse animate-infinite"></div>
+        <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse animate-infinite"></div>
       </div>
       <span className="text-3xl navbar_name w-36 animate-fade-down animate-delay-300">
         {time}
