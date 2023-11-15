@@ -6,9 +6,8 @@ function FooterHero() {
     <div>
       <img src={logo} className="absolute w-28 left-4 bottom-8 logo" />
       <div className="absolute right-6 text-white bottom-1 text-lg text-right">
-        <h3>Terminando carrera</h3>
-        <h3>En busqueda laboral</h3>
-        <h3>Hablemos!</h3>
+        <h3 className="font-semibold text-orange-400"><a href="#contacto">Hablemos!</a></h3>
+        <h3 className="font-semibold">En busqueda laboral</h3>
       </div>
     </div>
   );

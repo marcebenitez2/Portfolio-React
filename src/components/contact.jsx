@@ -5,7 +5,7 @@ import logoGithub from "../assets/github.png";
 
 function Contact() {
   return (
-    <div className="w-full flex flex-col mt-20 gap-4">
+    <div className="w-full flex flex-col mt-20 gap-4" id="contacto">
       <h1 className="about_title">CONTACTAME</h1>
       <div className="flex lgn:flex-col lgn:gap-10">
         <form className="flex flex-col w-full">
