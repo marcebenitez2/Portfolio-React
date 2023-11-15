@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./navbar";
 import Title from "./title";
 import FooterHero from "./footerHero";
