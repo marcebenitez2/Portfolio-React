@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div className="w-full flex flex-col  gap-6">
       <h2 className="about_title hover:text-orange-400">EXPERIENCIA</h2>
-      <div className="flex gap-32 px-20">
+      <div className="flex gap-32 px-20 xln:px-10 xln:gap-10 lgn:flex-col lgn:px-10 mdn:px-0">
         <div className="w-full flex flex-col gap-6">
           <a
             href="https://calcos-ecommerce-main.vercel.app/store"

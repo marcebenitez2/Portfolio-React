@@ -5,9 +5,9 @@ import logoGithub from "../assets/github.png";
 
 function Contact() {
   return (
-    <div className="w-full flex flex-col">
+    <div className="w-full flex flex-col mt-20 gap-4">
       <h1 className="about_title">CONTACTAME</h1>
-      <div className="flex">
+      <div className="flex lgn:flex-col lgn:gap-10">
         <form className="flex flex-col w-full">
           <h2 className="text-2xl">
             Si tienes algo en mente no dudes en comunicarte!
@@ -29,7 +29,7 @@ function Contact() {
             <textarea type="text" />
           </label>
         </form>
-        <div className="w-full flex flex-col pl-24 justify-around items-center">
+        <div className="w-full flex flex-col pl-24 justify-around items-center lgn:flex-row lgn:pl-0">
           <a
             href="https://github.com/marcebenitez2"
             target="_blank"
