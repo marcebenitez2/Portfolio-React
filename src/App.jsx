@@ -1,9 +1,10 @@
 import "./App.css";
-import Hero from "./components/Hero";
+import Hero from "./components/hero";
 import AboutMe from "./components/aboutMe";
 import Contact from "./components/contact";
 import Projects from "./components/projects";
 import Techslider from "./components/techslider";
+
 
 function App() {
   return (
