@@ -80,7 +80,7 @@ h2 {
 }
 
 .tecnologias-container {
-  width: 100%;
+  width: 99.8%;
   height: 100px;
   overflow: hidden;
   background-color: rgb(39, 39, 42);
@@ -90,7 +90,7 @@ h2 {
 }
 
 .tecnologias-container2 {
-  width: 100%;
+  width: 99.8%;
   height: 100px;
   overflow: hidden;
   background-color: rgb(251 146 60);
@@ -98,6 +98,8 @@ h2 {
   left: 0;
   transform: translate(0, 10rem) rotate(-3deg);
 }
+
+
 
 .tecnologias {
   width: 100%;
@@ -195,6 +197,10 @@ label textarea {
   .subtitle_hero {
     font-size: 30px;
   }
+
+  .tecnologias-container, .tecnologias-container2{
+    width: 99%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -213,5 +219,14 @@ label textarea {
   }
   .title_project{
     font-size: 20px;
+  }
+}
+
+
+/* .container-title{} */
+
+@media screen and (max-height: 440px){
+  .logo{
+    display: none;
   }
 }
