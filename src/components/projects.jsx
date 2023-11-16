@@ -28,8 +28,7 @@ function Projects() {
             </h3>
             <p className="mdn:text-base">
               Tienda concepto de stickers, con un diseño minimalista y una
-              paleta de colores que se adapta a cualquier tipo de sticker. El
-              proyecto se realizó con NextJS, TailwindCSS y Firebase.
+              paleta de colores que se adapta a cualquier tipo de sticker. El sitio utiliza Firebase como base de datos y autenticación para el administrador. El proyecto se realizó en NextJS y TailwindCSS.
             </p>
           </div>
         </div>
@@ -45,7 +44,7 @@ function Projects() {
               Sistema de administracion para grupos scouts. El sistema cuenta
               con usuarios, roles, gestion de beneficiarios, gestion de
               inventario como tambien de calendario, etc. El proyecto se realizó
-              con React, PHP y Mysql.
+              con React, PHP y MySQL como base de datos.
             </p>
           </div>
         </div>
