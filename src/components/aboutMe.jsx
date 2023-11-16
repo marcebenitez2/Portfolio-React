@@ -8,12 +8,12 @@ function AboutMe() {
       <div className="flex lgn:flex-col-reverse lgn:gap-10">
         <div className="text-2xl font-thin leading-normal w-full basis-full pr-24 mdn:pr-0 mdn:text-lg">
           <h2 className="hover:text-orange-400">
-            ¡Hola, soy un apasionado desarrollador de software FullStack! Mi
-            especialidad es crear aplicaciones web robustas y escalables. Mi
-            enfoque principal es proporcionar soluciones tecnológicas
-            innovadoras y centradas en el usuario.
+            ¡Hola! Soy desarrollador de software FullStack. Mi especialidad es
+            crear aplicaciones web robustas y escalables. Mi enfoque principal
+            es proporcionar soluciones tecnológicas innovadoras y centradas en
+            el usuario.
           </h2>
-          <h2 className="hover:text-orange-400">
+          <h2 className="hover:text-orange-400 smn:hidden">
             Me encanta aprender y experimentar con nuevas tecnologías y
             metodologías para estar siempre actualizado en este mundo en
             constante evolución.
