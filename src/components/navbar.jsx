@@ -26,7 +26,7 @@ function Navbar() {
         </h1>
         <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse animate-infinite"></div>
       </div>
-      <span className="text-3xl navbar_name w-36 animate-fade-down animate-delay-300">
+      <span className="text-3xl navbar_name w-36 animate-fade-down animate-delay-300 smn:w-fit mdn:text-xl">
         {time}
       </span>
     </div>
