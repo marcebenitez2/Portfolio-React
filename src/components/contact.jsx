@@ -5,7 +5,7 @@ import logoGithub from "../assets/github.png";
 
 function Contact() {
   const email = "marcebenitez0607@gmail.com";
-  const phoneNumber = "+51 341 569 0470";
+  const phoneNumber = "+54 341 569 0470";
 
   return (
     <div className="w-full flex flex-col mt-20 gap-4" id="contacto">
