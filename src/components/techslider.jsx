@@ -20,6 +20,7 @@ const techNames = [
   "MongoDB",
   "MySQL",
   "PHP",
+  'Astro'
 ];
 
 function Techslider() {
