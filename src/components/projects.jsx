@@ -43,8 +43,7 @@ function Projects() {
             <p className="mdn:text-base">
               Sistema de administracion para grupos scouts. El sistema cuenta
               con usuarios, roles, gestion de beneficiarios, gestion de
-              inventario como tambien de calendario, etc. El proyecto se realizó
-              con React, PHP y MySQL como base de datos.
+              inventario como tambien de calendario, etc. El proyecto se realizo con node para el lado del servidor y React para el lado del cliente. Ademas contiene practica de arquitectura MVC
             </p>
           </div>
         </div>
