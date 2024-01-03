@@ -33,7 +33,7 @@ function Projects() {
           </div>
         </div>
         <div className="w-full flex flex-col gap-6">
-          <a>
+          <a href="https://sanmiguelarcangel.vercel.app/">
             <img src={preview2} className="zoom" alt="Project 2" />
           </a>
           <div>
