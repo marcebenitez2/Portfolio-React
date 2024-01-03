@@ -38,7 +38,7 @@ function Projects() {
           </a>
           <div>
             <h3 className="title_project text-red-600">
-              <a href="">SCOUTSOFT</a>
+              <a href="https://sanmiguelarcangel.vercel.app/">SCOUTSOFT</a>
             </h3>
             <p className="mdn:text-base">
               Sistema de administracion para grupos scouts. El sistema cuenta
