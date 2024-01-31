@@ -1,10 +1,17 @@
 import React from "react";
 import fotoYO from "../assets/fotoYo.jpg";
+import { motion } from "framer-motion";
 
 function AboutMe() {
   return (
     <div className="w-full pt-16 flex flex-col gap-4">
-      <h2 className="about_title hover:text-orange-400">SOBRE MI</h2>
+      <motion.h2
+        className="about_title"
+        whileInView={{ color: "rgb(251,146,60)" }}
+        transition={{ delay: 0.5 }}
+      >
+        SOBRE MI
+      </motion.h2>
       <div className="flex lgn:flex-col-reverse lgn:gap-10">
         <div className="text-2xl font-thin leading-normal w-full basis-full pr-24 mdn:pr-0 mdn:text-lg">
           <h2 className="hover:text-orange-400">
