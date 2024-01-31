@@ -10,9 +10,9 @@ function Projects() {
   return (
     <div className="w-full flex flex-col gap-6 mb-10">
       <h2 className="about_title hover:text-orange-400">EXPERIENCIA</h2>
-      <div className="flex flex-col px-20 gap-40">
-        <div className="flex gap-32 xln:px-10 xln:gap-10 lgn:flex-col lgn:px-10 mdn:px-0">
-          <article className="w-full flex flex-col gap-6">
+      <div className=" h-full flex flex-col px-20 gap-40 mdn:px-2 lgn:gap-10">
+        <div className="flex h-full gap-32  xln:gap-10 lgn:flex-col  mdn:px-0">
+          <article className="w-full h-full flex flex-col gap-6">
             <a
               href="https://calcos-ecommerce-main.vercel.app/store"
               target="_blank"
@@ -37,7 +37,7 @@ function Projects() {
               </p>
             </div>
           </article>
-          <article className="w-full flex flex-col gap-6">
+          <article className="w-full h-full flex flex-col gap-6">
             <a href="https://sanmiguelarcangel.vercel.app/">
               <img src={preview2} className="zoom" alt="Project 2" />
             </a>
@@ -55,7 +55,8 @@ function Projects() {
             </div>
           </article>
         </div>
-        <article className="w-full h-96 flex flex-col items-center justify-center gap-6">
+
+        <article className="w-full flex flex-col items-center justify-center gap-6">
           <a href="https://next-js-supabase-chat-app.vercel.app/">
             <img
               src={preview4}
@@ -63,20 +64,24 @@ function Projects() {
               alt="Project 4"
             />
           </a>
-          <h3 className="title_project text-rose-600">
-            <a href="https://next-js-supabase-chat-app.vercel.app/">CHATAPP</a>
-          </h3>
-          <p className="px-60">
-            Aplicación de chat en tiempo real con un diseño intuitivo y
-            atractivo, desarrollada utilizando NextJS y Supabase. La interfaz
-            minimalista se complementa con una paleta de colores versátil que se
-            adapta perfectamente a cualquier tipo de sticker. Durante el
-            desarrollo, se hizo uso de TailwindCSS y los RSC de Shadcn para
-            garantizar una apariencia moderna y agradable. La integración de
-            NextJS proporciona una experiencia de usuario fluida, mientras que
-            Supabase se encarga de la gestión de la base de datos y la
-            autenticación, asegurando una plataforma segura y eficiente.
-          </p>
+          <div className="px-64 2xln:px-20 lgn:px-0">
+            <h3 className="title_project text-rose-600 text-center lgn:text-start">
+              <a href="https://next-js-supabase-chat-app.vercel.app/">
+                CHATAPP
+              </a>
+            </h3>
+            <p>
+              Aplicación de chat en tiempo real con un diseño intuitivo y
+              atractivo, desarrollada utilizando NextJS y Supabase. La interfaz
+              minimalista se complementa con una paleta de colores versátil que
+              se adapta perfectamente a cualquier tipo de sticker. Durante el
+              desarrollo, se hizo uso de TailwindCSS y los RSC de Shadcn para
+              garantizar una apariencia moderna y agradable. La integración de
+              NextJS proporciona una experiencia de usuario fluida, mientras que
+              Supabase se encarga de la gestión de la base de datos y la
+              autenticación, asegurando una plataforma segura y eficiente.
+            </p>
+          </div>
         </article>
       </div>
     </div>
